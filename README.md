@@ -19,3 +19,12 @@ Ett enkelt Chrome-tillägg som gör röst-till-text direkt i webbläsaren – p�
 ## Licens
 
 MIT
+
+## Vad gör det här tillägget?
+
+När du klickar på tilläggets ikon visas en liten ruta längst ner på skärmen. Då börjar mikrofonen lyssna och transkribera det du säger. När du slutar prata klistras texten automatiskt in i det fält du hade klickat i. Allt sker lokalt i webbläsaren – ingen data skickas eller sparas.
+
+## Sekretess
+
+Pratkvarn använder endast mikrofonen när du aktivt startar tillägget. Ingen data skickas vidare, sparas eller behandlas av externa servrar.
+
