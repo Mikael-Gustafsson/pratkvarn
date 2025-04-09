@@ -1,0 +1,32 @@
+#voice-overlay {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(40, 40, 40, 0.9);
+  color: white;
+  font-family: sans-serif;
+  padding: 12px 16px;
+  border-radius: 10px;
+  z-index: 999999;
+  box-shadow: 0 0 10px #00000055;
+  max-width: 300px;
+}
+
+#voice-text {
+  margin-top: 6px;
+  font-size: 1em;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+#voice-overlay button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#voice-overlay button:hover {
+  color: #ff8a8a;
+}
