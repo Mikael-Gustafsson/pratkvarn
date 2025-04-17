@@ -9,7 +9,8 @@
   border-radius: 10px;
   z-index: 999999;
   box-shadow: 0 0 10px #00000055;
-  max-width: 300px;
+  width: 300px;
+  min-height: 80px;
 }
 
 #voice-text {
@@ -27,6 +28,54 @@
   cursor: pointer;
 }
 
-#voice-overlay button:hover {
-  color: #ff8a8a;
+#voice-overlay #copy-btn:hover {
+  color: #8ae08c;
+  /* grön */
+}
+
+#voice-overlay #close-btn:hover {
+  color: #E57373;
+  /* lite mjukare röd */
+}
+
+
+/* Lägg till i din befintliga CSS-fil */
+#voice-overlay .recording {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#voice-overlay .recording .material-icons {
+  font-size: 1.4em;
+  /* större ikon */
+  color: #ffffff;
+  /* vit mikrofon */
+}
+
+/* Pulserande röd prick */
+#voice-overlay .recording .record-dot {
+  width: 8px;
+  height: 8px;
+  background: #E57373;
+  /* mjuk röd */
+  border-radius: 50%;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.4);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
